@@ -1,0 +1,427 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Handlee', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 244, 212);
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+
+header img{
+    max-width: 130px;
+}
+
+#nav-bar {
+    width: 80%;
+    text-align: right;
+    z-index: 1;
+}
+
+.nav-item {
+    font-family: 'Handlee', cursive;
+    padding: 0 5% 0 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#nav-bar a:hover {
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+    opacity: 100%;
+}
+
+#aisle-bar {
+    font-family: 'Handlee', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(165, 22, 22);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#aisle-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 60%;
+    font-size: 17px;
+}
+
+#aisle-bar a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+div p{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#banner {
+    background-image: url('imgs/Fruits-and-Vegetables-Banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#banner p {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin: 50px 0 50px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    backdrop-filter: blur(10px);
+}
+
+#aisle-comment h1{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    margin: 20px 0 10px 0;
+}
+
+#products {
+    font-family: 'Handlee', cursive;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fitProduct {
+    margin: 10px;
+}
+
+#products-border {
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin;
+    width: 300px;
+    margin: auto;
+    height: 400px;
+}
+
+#products img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+#name-price {
+    margin-top: px;
+}
+
+#products p {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+#products #products-border:hover {
+    box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
+    transition-duration: 0.5s;
+}
+
+#products a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    font-family: 'Handlee', cursive;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(99, 114, 81);
+   
+    position: static;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+}
+
+footer ul {
+    padding-top: 30px;
+    text-decoration: none;
+    opacity: 60%;
+    list-style: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    text-align: center;
+}
+footer ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer p{
+    display: block;
+    text-align: center;
+}
+
+
+footer a:hover {
+    text-decoration: none;
+    opacity: 100%;
+    color: rgb(155, 155, 155);
+}
+
+
+
+/* --------------------------------------------------------------- */
+/*For product description page!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* --------------------------------------------------------------- */
+
+#product-info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#product-info .col-sm {
+    margin: 10px;
+}
+
+#product-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.aisle-section {
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.col-sm p {
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+}
+
+#product-detail .aisle-section {
+    display: inline-block;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    margin: 0 0 10px 0;
+    border-radius: 25px;
+    background-color: green;
+}
+#product-detail input {
+    font-family: Arial, sans-serif;
+    border-style: solid;
+    border-width: thin;
+    outline: none;
+}
+
+#sku {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#type {
+    margin: 10px 10px 10px 0;
+}
+
+#size {
+    margin: 10px 0 10px 0;
+}
+
+.col-sm .price {
+    margin: 0 0 10px 0;
+}
+
+#quantity {
+    display: inline-block;
+    border-style: solid;
+    border-width: thin;
+}
+
+#quantity p {
+    font-weight: normal;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#product-detail #add-to-cart {
+    margin: 5px 0 0 0;
+    border-width: thin;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#product-detail #decrement {
+    border-radius: 10px 0 0 10px;
+    background-color: #fc4c4c;
+}
+
+#product-detail #increment {
+    border-radius: 0 10px 10px 0;
+    background-color: #46e476;
+}
+
+#product-detail #decrement:hover { 
+    box-shadow: none;
+    transition-duration: 0.5s;
+}
+
+#product-detail #increment:hover {
+    box-shadow: none;
+    transition-duration: 0.5s;
+}
+
+#product-detail #add-to-cart {
+   background-color: #46e476;
+}
+
+#product-detail input:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+}
+
+#product-detail #more-description {
+    margin: 10px 0 0 0;
+}
+
+#product-detail #more-description:hover {
+    background-color: rgb(236, 236, 236);    
+}
+
+/* --------------------------------------------------------------- */
+/*For product list page!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* --------------------------------------------------------------- */
+#title-product-list {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#add-product {
+    margin-top: 10px;
+}
+
+#add-product button {
+    border-width: thin;
+    border-radius: 5px;
+    outline: none;
+}
+
+#add-product button:hover {
+    background-color: lightgreen;
+    transition-duration: 0.2s;
+}
+
+#new-product {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+#new-product:hover {
+    transition-duration: 0.2s;
+    background-color: lightgreen;
+}
+
+#product-list {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#individual-border {
+    margin: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: thin;
+}
+
+#product-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#individual-border img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+#customize-product {
+    margin-top: 10px;
+}
+
+#customize-product p {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+#customize-product button {
+    border-width: thin;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+#edit:hover {
+    background-color: orange;
+    transition-duration: 0.2s;
+}
+
+#delete:hover {
+    background-color: red;
+    transition-duration: 0.2s;
+}
+
+/* responsive classes */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}

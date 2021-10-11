@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+  <users>
+    <user id="1">
+      <first_name>John</first_name>
+      <last_name>Barr</last_name>
+      <email>johnbarr@mirchigrocery.ca</email>
+      <password>password123</password>
+      <cpassword>password123</cpassword>
+      <address>2718 rue Bellechasse</address>
+      <city>Montreal</city>
+      <postalcode>H7E 5M7</postalcode>
+      <province>Quebec</province>
+      <phone>876-000-3231</phone>
+      <admin>true</admin>
+    </user>
+    <user id="2">
+      <first_name>Dean</first_name>
+      <last_name>Masters</last_name>
+      <email>deanmasters@mirchigrocery.ca</email>
+      <password>password123</password>
+      <cpassword>password123</cpassword>
+      <address>2718 Abbey Road</address>
+      <city>Montreal</city>
+      <postalcode>H7E 5M7</postalcode>
+      <province>Qc</province>
+      <phone>514-555-6642</phone>
+      <admin>true</admin>
+    </user>
+    <user id="3">
+      <first_name>Regina</first_name>
+      <last_name>Phalange</last_name>
+      <email>rphalange@gmail.com</email>
+      <password>passwords</password>
+      <cpassword>passwords</cpassword>
+      <address>2199 boul. Décarie</address>
+      <city>Saint Laurent </city>
+      <postalcode>H2D 4H7</postalcode>
+      <province>Quebec</province>
+      <phone>514-999-2302</phone>
+    </user>
+    <user id="4">
+      <first_name>Robert</first_name>
+      <last_name>Barnes</last_name>
+      <email>rbarnes@hotmail.ca</email>
+      <password>Sports122</password>
+      <cpassword>Sports122</cpassword>
+      <address>1938 rue Copernic</address>
+      <city>Montreal</city>
+      <postalcode>H1R 3M4</postalcode>
+      <province>Quebec</province>
+      <phone>438-192-2839</phone>
+    </user>
+  </users>
+  <products>
+    <aisle id="FruitsAndVegetables">
+      <product SKU="11">
+        <name>Bananas</name>
+        <price>2.00</price>
+        <totalquantity>50</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Fresh yellow bananas picked at the heart of Mirchi. These glistening bananas are grown in a prestigious banana farm renown for their intense care and passion for bananas. </description>
+        <img>/imgs/banana.jpg</img>
+      </product>
+      <product SKU="12">
+        <name>Apples</name>
+        <price>3.00</price>
+        <totalquantity>170</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Juicy and crunchy red apples picked at a thriving local farm solely dedicated to apple trees. Local farmers take extra caution in the treatment of the apples and plucked them at the perfect time of ripeness.</description>
+        <img>/imgs/apples.jpg</img>
+      </product>
+      <product SKU="13">
+        <name>Carrots</name>
+        <price>2.50</price>
+        <totalquantity>140</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Carrots ranging from a plethora of types. These carrots are locally grown at our own local farm.</description>
+        <img>/imgs/Carrots.jpg</img>
+      </product>
+    </aisle>
+    <aisle id="DairyProducts">
+      <product SKU="9">
+        <name>1L Lactantia Milk</name>
+        <price>3.98</price>
+        <totalquantity>40</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Our story starts over 70 years ago with a visionary dairy producer from Victoriaville, Quebec. His name was Lionel Beaudet. His passion was all things nature. And his mission was simple: preserve the wholesome goodness that brings out the best in fresh dairy. And not much has changed since. To this day, we’ve continued Beaudet’s farm-fresh tradition with quality products that respect the purity of nature. Whether it’s our PūrFiltre milks or the butter that started it all, the result is always great tasting dairy you can feel good about. No more, no less. Ingredients : Partly skimmed milk, vitamin a palmitate, vitamin d3.</description>
+        <img>/imgs/lactantia.jpg</img>
+      </product>
+      <product SKU="10">
+        <name>2L Quebon Milk</name>
+        <price>7.59</price>
+        <totalquantity>30</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Why change tradition ? Québon partly skimmed 2% milk combines the great taste and freshness of Quebec's milk with many vitamins and minerals necessary for the maintenance of good health. From our farms to your family. Ingredients : Partly skimmed milk, vitamin a palmitate, vitamin d3.</description>
+        <img>/imgs/quebon.jpg</img>
+      </product>
+      <product SKU="23">
+        <name>Astro Balkan Yogurt</name>
+        <price>2.99</price>
+        <totalquantity>30</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Astro Original Plain yogourt contains only natural ingredients and is deliciously thick and creamy. Perfect for eating, cooking and baking – be sure to try it in all your favourite recipes. The way yogourt is meant to be! Ingredients: Grade A reduced-fat milk, sugar, water, fructose or fruit sugar, modified food starch, less than 1 percent milk protein concentrate, modified corn starch, kosher gelatin, agar, guar gum, lactic acid, calcium lactate, vitamin D3 and sodium citrate.</description>
+        <img>/imgs/yogurt.jpg</img>
+      </product>
+    </aisle>
+    <aisle id="MeatAndPoultry">
+      <product SKU="16">
+        <name>Ribeye Steak</name>
+        <price>16.99</price>
+        <totalquantity>120</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Beef from a local free-range farm. Portioned into steaks with a thickness of 2 in. Ingredients: Beef.</description>
+        <img>/imgs/beef.jpg</img>
+      </product>
+      <product SKU="17">
+        <name>Chicken Breast</name>
+        <price>7.99</price>
+        <totalquantity>200</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Chicken Breasts sourced from a local free-range chicken farm. Ingredients : Chicken.</description>
+        <img>/imgs/chicken.jpg</img>
+      </product>
+      <product SKU="18">
+        <name>Marinated Chicken Tikka</name>
+        <price>10.79</price>
+        <totalquantity>100</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Chunks of chicken marinated in spices and yogurt for preparation on the barbeque or in the oven. Usually served in a creamy curry sauce. Ingredients : chicken, spices (curry powder, chili powder, garam masala), yogurt </description>
+        <img>/imgs/tikka.jpg</img>
+      </product>
+    </aisle>
+    <aisle id="FishAndSeafood">
+      <product SKU="14">
+        <name>Fried Calamari</name>
+        <price>7.95</price>
+        <totalquantity>40</totalquantity>
+        <unitsperquantity>20</unitsperquantity>
+        <description>The Calamari sold at Mirchi are the best east coast squid you'll find, fresh off the boat and hand made flower from the best spices you can find in Asia. The fried Calamari rivals even the most exquisite restaurants dishes. One unit of this product consists approx. 26 per package</description>
+        <img>/imgs/Calamari.jpg</img>
+      </product>
+      <product SKU="15">
+        <name>Sushi</name>
+        <price>14.99</price>
+        <totalquantity>20</totalquantity>
+        <unitsperquantity>11</unitsperquantity>
+        <description>The Sushi sold at Mirchi are freshly made and packaged everyday for people to enjoy during lunch, the package contains 12 pieces of sushi 4x all mixed, 4x shrimp, 4x salmon. One unit of this product consists of 12 pieces per package.</description>
+        <img>/imgs/sushi.jpg</img>
+      </product>
+      <product SKU="22">
+        <name>Fried Shrimp</name>
+        <price>14.95</price>
+        <totalquantity>70</totalquantity>
+        <unitsperquantity>4</unitsperquantity>
+        <description>The Fried Shrimp sold at Mirchi are the best hand breaded shrimp you'll find in Canada, the hand made flower comes from the best spices within our own store. The fried shrimp rivals even Popeyes famous shrimp. </description>
+        <img>/imgs/fried Shrimp.jpg</img>
+      </product>
+    </aisle>
+    <aisle id="HerbsAndSpices">
+      <product SKU="19">
+        <name>Butter Chicken Masala</name>
+        <price>5.99</price>
+        <totalquantity>20</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>Ingredients : Coriander seeds, Red Chillies, Iodised Salt, Black Pepper, Turmeric, Garlic, Cassia, Dried Ginger, Fennel Seeds, Cardamom Amomum, Cloves, Nutmeg, Mace.</description>
+        <img>/imgs/BUTTER-CHICKEN.jpg</img>
+      </product>
+      <product SKU="20">
+        <name>Turmeric Powder</name>
+        <price>2.79</price>
+        <totalquantity>80</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>A spice used in India for centuries, this spice gives Indian food that rich taste and colour. It is excellent for your health and has benefits such as being anti-inflammatory.</description>
+        <img>/imgs/HALDI.jpg</img>
+      </product>
+      <product SKU="21">
+        <name>Red Chilli Powder</name>
+        <price>4.99</price>
+        <totalquantity>20</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>A spice used in India for centuries, this spice gives Indian food that rich taste and colour. It is excellent for your health and adds a rich unique spicyness. Ingredients : Red Chillies.</description>
+        <img>/imgs/LALMIRCH.jpg</img>
+      </product>
+    </aisle>
+    <aisle id="Bakery">
+      <product SKU="1">
+        <name>Bagels</name>
+        <price>10.75</price>
+        <totalquantity>75</totalquantity>
+        <unitsperquantity>12</unitsperquantity>
+        <description>The Mirchi bagel is a distinctive handmade and wood-fired baked bagel. It’s soft, chewy and incredibly delicious. It contains malt, egg, and no salt, and is boiled in honey-sweetened water before being baked.</description>
+        <img>/imgs/alejandra-cifre-gonzalez-0Fa6KwEcgZs-unsplash.jpg</img>
+      </product>
+      <product SKU="7">
+        <name>Croissants</name>
+        <price>1.95</price>
+        <totalquantity>100</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>A viennoiserie classic, a Mirchi croissant is light, flaky and buttery. It is a crescent-shaped baked good made from yeast-leavened dough and butter.</description>
+        <img>/imgs/kavita-joshi-rai-lE5O9DktAQY-unsplash.jpg</img>
+      </product>
+      <product SKU="8">
+        <name>Honey Pistachio Baklava</name>
+        <price>3.95</price>
+        <totalquantity>130</totalquantity>
+        <unitsperquantity>1</unitsperquantity>
+        <description>A popular Middle Eastern dessert made with thin crisp layers of buttered filo sheets and filled with a sweet pistachio mixture. It is baked crisp, then soaked in sugar syrup that just melts in the mouth. </description>
+        <img>/imgs/syed-f-hashemi-bGAPRnJITpQ-unsplash.jpg</img>
+      </product>
+    </aisle>
+  </products>
+</database>

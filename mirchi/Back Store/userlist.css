@@ -1,0 +1,264 @@
+body {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Handlee', cursive;
+}
+
+/*header and navigation bars*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 244, 212);
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+
+header img{
+    max-width: 130px;
+}
+
+#nav-bar {
+    width: 80%;
+    text-align: right;
+}
+
+.nav-item {
+    font-family: 'Handlee', cursive;
+    padding: 0 5% 0 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#nav-bar>a:hover {
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+    opacity: 100%;
+}
+
+#aisle-bar {
+    font-family: 'Handlee', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(165, 22, 22);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+#aisle-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 60%;
+    font-size: 17px;
+}
+
+#aisle-bar a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+/* user list*/
+
+#user-list {
+text-align: center;
+    padding: 5% 2% 2% 2%;
+    overflow: scroll;
+   
+}
+
+
+#user-list a {
+    color: rgb(77, 77, 77);
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+#user-count {
+    margin-top: 2%;
+}
+
+#user-table {
+    margin-top: 2%;
+    object-fit: scale-down; 
+   
+}
+
+
+
+#user-table #img-container img {
+    object-fit: cover;
+    height: 150px;
+    width: 150px; 
+    border-radius: 1px;
+}
+
+/*Add Product button*/
+#add-product {
+    margin-top: 10px;
+}
+
+#add-product button {
+    border-width: thin;
+    border-radius: 5px;
+    outline: none;
+}
+
+#add-product button:hover {
+    background-color: lightgreen;
+    transition-duration: 0.2s;
+}
+
+/*Add User button*/
+
+#new-user {
+    border-style: solid;
+    padding: 3px;
+    margin-top: 20px;
+    border-width: thin;
+    border-radius: 5px;
+    outline: none;
+}
+
+#new-user:hover {
+    background-color: lightgreen;
+    transition-duration: 0.2s;
+}
+
+#new-product {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+#new-product:hover {
+    transition-duration: 0.2s;
+    background-color: lightgreen;
+}
+
+
+
+/*footer*/
+
+footer {
+    font-family: 'Handlee', cursive;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(99, 114, 81);
+   
+    position: static;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+}
+
+footer ul {
+    padding-top: 30px;
+    text-decoration: none;
+    opacity: 60%;
+    list-style: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    text-align: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer p{
+    display: block;
+    text-align: center;
+}
+
+
+footer a:hover {
+    text-decoration: none;
+    opacity: 100%;
+    color: rgb(155, 155, 155);
+}
+/*
+footer {
+    font-family: 'Handlee', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(99, 114, 81);
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+}
+
+footer>a {
+    padding-top: 30px;
+    color: white;
+    text-decoration: none;
+    opacity: 60%;
+    
+}
+
+footer>a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+}
+*/
+
+/* device-specific classes */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    header{
+        visibility: hidden;
+        height: 0px; 
+    }
+
+    #aisle-bar {
+        position: fixed;
+    }
+
+    #user-list {
+        margin-top: 50px;
+       
+        padding: 2% 5% 2% 5%;
+           
+        
+         
+    }
+
+    #footer {
+        position: fixed;
+    }
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+ 
+}
